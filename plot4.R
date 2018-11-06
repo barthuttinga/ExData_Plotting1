@@ -44,7 +44,7 @@ with(data, {
     lines(x, Sub_metering_3, col = "blue")
 })
 legend("topright", legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),
-      col = c("black", "red", "blue"), pch ="_", pt.cex = 2, bty = "n")
+      col = c("black", "red", "blue"), lty = 1, cex = .95, bty = "n", )
 # bottom right
 with(data, plot(type="l", x = x, y = Global_reactive_power, col = "black", xlab = "datetime"))
 dev.off()

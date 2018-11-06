@@ -38,5 +38,5 @@ with(data, {
     lines(x, Sub_metering_3, col = "blue")
 })
 legend("topright", legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),
-       col = c("black", "red", "blue"), pch ="_", pt.cex = 2)
+       col = c("black", "red", "blue"), lty = 1)
 dev.off()
